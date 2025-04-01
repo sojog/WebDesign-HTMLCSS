@@ -1,0 +1,33 @@
+/* 1. HTML  - background WHITE */
+table,
+th {
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+}
+tr:nth-child(even){
+    background-color: whitesmoke;
+}
+th {
+    background-color: black;
+    color:white;
+}
+
+/* 2. HTML   - background BLACK  */
+#dark {
+    background-color: black;
+  }
+#dark a {
+color: white;
+}
+#dark table, #dark th {
+    border-color: white;
+    color:white;
+}
+#dark tr:nth-child(even){
+    background-color:rgb(29, 36, 36);
+}
+#dark th {
+    background-color: white;
+    color:black;
+}

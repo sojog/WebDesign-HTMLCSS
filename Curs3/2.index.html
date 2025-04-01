@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      li {
+        color: darkorange;
+      }
+      .bg-black {
+        background-color: black;
+      }
+      li:hover:not(.spatiu) {
+        background-color: blue;
+      }
+      /* primul de tipul li */
+      li:nth-child(1) {
+        background-color: red;
+      }
+      /* hover la primul */
+      li:nth-child(1):hover {
+        background-color: purple;
+      }
+      .spatiu {
+        background-color: aqua;
+        padding: 10px;
+      }
+      #phone {
+        font-size: xx-large;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Lista de 1 Aprilie</h1>
+
+    <ol>
+      <li>La munca</li>
+      <li id="phone">La telefon</li>
+      <li class="bg-black">Acasa</li>
+      <li>Cu prietenii</li>
+      <li class="spatiu">In vacanta</li>
+    </ol>
+  </body>
+</html>
