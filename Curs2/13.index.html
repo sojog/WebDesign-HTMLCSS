@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* Sambata - duminica => background color rosu, culoare neagra */
+      /* Luni -> color red, italic */
+
+      /* Miercuri Vineri - background color black, color white */
+      /* restul color - gray */
+      li {
+        color: gray;
+      }
+      .weekend {
+        background-color: red;
+        color: black;
+      }
+      .post {
+        background-color: black;
+        color: white;
+      }
+      i {
+        color: red;
+      }
+      li:hover {
+        background-color: blue;
+      }
+      .post::marker {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Calendar</h1>
+
+    <ul>
+      <li><i>Luni</i></li>
+      <li>Marti</li>
+      <li class="post">Miercuri</li>
+      <li>Joi</li>
+      <li class="post">Vineri</li>
+      <li class="weekend">Sambata</li>
+      <li class="weekend">Duminica</li>
+    </ul>
+  </body>
+</html>

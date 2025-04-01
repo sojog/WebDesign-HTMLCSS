@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      p {
+        color: blue;
+        color: red;
+        background-color: fuchsia;
+      }
+      p {
+        color: cadetblue;
+        color: green;
+        background-color: black;
+      }
+      
+      /* div si paragraph */
+      div, p {
+        color: red;
+      }
+
+      /* paragraph din div */
+      div p {
+        color:cyan;
+      }
+    </style>
+  </head>
+  <body>
+    <p>Paragraph</p>
+    <div>Div</div>
+    <span>Span</span>
+
+    <div>
+      <p>Paragraph din div</p>
+    </div>
+  </body>
+</html>
