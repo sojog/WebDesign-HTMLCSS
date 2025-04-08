@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div {
+        background-color: salmon;
+        width: min(80vw, 80vh);
+        height: min(80vw, 80vh);
+        border: solid 2px red;
+
+        margin-top: 10px;
+        margin-left: 10px;
+      }
+      div > div {
+        background-color: aqua;
+        border-color: blue;
+      }
+      div > div > div {
+        background-color: greenyellow;
+        border-color: green;
+      }
+      div > div > div > div {
+        background-color: yellow;
+        border-color: orange;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div>
+        <div>
+          <div></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
