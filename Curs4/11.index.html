@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      form {
+        /* border-color: green;
+        border-style: solid; */
+
+        border: 3px solid green;
+
+        padding: 20px;
+      }
+      input {
+        display: block;
+        margin-bottom: 10px;
+      }
+      input[type="text"],
+      input[type="email"] {
+        border-color: green;
+      }
+      input[type="submit"] {
+        background-color: green;
+        color: white;
+        border-color: darkgreen;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- http://127.0.0.1:5500/11.index.html?
+     
+    family=ramses  &   emailaddress   =   ramses%40egipt.eg
+    
+    -->
+    <form action="https://www.link-academy.com/">
+      <label for="family">Numele</label>
+      <input type="text" name="family" id="" placeholder="Introduceti numele" />
+
+      <label for="emailaddress">Email</label>
+      <input
+        type="email"
+        name="emailaddress"
+        id=""
+        placeholder="numeletau@demeniu.ro"
+      />
+
+      <input type="submit" value="Trimite" />
+    </form>
+  </body>
+</html>
