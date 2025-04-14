@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: azure;
+      }
+      form {
+        background-color: white;
+        border-radius: 10px;
+        width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        box-shadow: 2px 2px 2px gray, -2px -2px 2px gray;
+      }
+      form > * {
+        display: block;
+        padding: 5px;
+        width: calc(100% - 10px);
+      }
+      input,
+      textarea {
+        padding: 5px;
+        margin-bottom: 10px;
+        border-color: gray;
+        border-radius: 5px;
+        border-width: 0.5px;
+      }
+      label {
+        font-weight: bold;
+      }
+      input[type="submit"] {
+        background-color: blueviolet;
+        color: white;
+        border-style: none;
+        border-radius: 5px;
+        padding: 10px;
+        width: 100%;
+        cursor: pointer;
+      }
+      input[type="submit"]:hover {
+        background-color: rgb(101, 27, 171);
+      }
+      input[type="submit"]:active {
+        background-color: rgb(171, 27, 85);
+      }
+    </style>
+  </head>
+  <body>
+    <form action="" method="get">
+      <h1>Contacteaza-ne</h1>
+
+      <label for="nume">Nume:</label>
+      <input type="text" name="nume" id="" placeholder="Prenumele tau" />
+
+      <label for="emailaddress">Email</label>
+      <input
+        type="email"
+        name="emailaddress"
+        id=""
+        placeholder="exemplu@gmail.com"
+      />
+
+      <label for="mesaj">Mesaj:</label>
+      <textarea
+        name="mesaj"
+        id=""
+        placeholder="Scrie mesajul tau aici..."
+      ></textarea>
+
+      <input type="submit" value="Trimite" />
+    </form>
+  </body>
+</html>
