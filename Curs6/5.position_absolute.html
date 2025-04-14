@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #parent {
+        background-color: bisque;
+        height: min(80vh, 80vw);
+        width: min(80vh, 80vw);
+        margin: 0 auto;
+        padding: 0px;
+        position: relative;
+      }
+      p {
+        background-color: black;
+        color: white;
+        position: absolute;
+      }
+      p#n {
+        top: 0px;
+        left: 50%;
+      }
+      p#s {
+        bottom: 0px;
+        left: 50%;
+      }
+      p#e {
+        right: 0px;
+        bottom: 50%;
+      }
+      p#v {
+        left: 0px;
+        bottom: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="parent">
+      <p id="n">Nord</p>
+      <p id="s">Sud</p>
+      <p id="e">Est</p>
+      <p id="v">Vest</p>
+    </div>
+  </body>
+</html>
